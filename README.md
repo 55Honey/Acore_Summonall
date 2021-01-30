@@ -20,6 +20,7 @@ Unless restricted otherwise, all players will be able to use `.summonall` to sum
 
 `table.insert(maps, 0)`
 
-Each line of `table.insert` adds one map to the list of allowed locations. By default Eastern Kingdoms, Kalimdor, Outland and Northrend are allowed. You can add more by providing the related map id in its own line. Find map ids e.g. in ./data/map.dbc
+Each line of `table.insert` adds one map to the list of allowed locations. *By default Eastern Kingdoms, Kalimdor, Outland and Northrend are allowed.* You can add more by providing the related map id in its own line. Find map ids e.g. in ./data/map.dbc.
+
 Trying to use the command on other than the listed maps will result in "Summoning is not possible here." as a message in the chat.
 Trying to use the command while in combat will result in "Summoning is not possible in combat." as a message in the chat.
