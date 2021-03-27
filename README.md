@@ -24,3 +24,5 @@ Each line of `table.insert` adds one map to the list of allowed locations. *By d
 
 Trying to use the command on other than the listed maps will result in "Summoning is not possible here." as a message in the chat.
 Trying to use the command while in combat will result in "Summoning is not possible in combat." as a message in the chat.
+
+Find me on patreon: https://www.patreon.com/Honeys
