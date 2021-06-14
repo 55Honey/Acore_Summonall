@@ -25,6 +25,15 @@ table.insert(maps, 571)
 -- NO ADJUSTMENTS REQUIRED BELOW THIS LINE
 ------------------------------------------
 
+local function has_value (tab, val)
+	for index, value in ipairs(tab) do
+		if value == val then
+			return true
+		end
+	end
+	return false
+end
+
 local function summonAll(event, player, command)
   if command == 'summonall' then
 	mapId = player:GetMapId()
@@ -48,15 +57,6 @@ local function summonAll(event, player, command)
 	end
 	return false	
   end
-end
-
-local function has_value (tab, val)
-    for index, value in ipairs(tab) do
-        if value == val then
-            return true
-        end
-    end
-    return false
 end
 
 RegisterPlayerEvent(42, summonAll)
