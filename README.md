@@ -1,4 +1,4 @@
-# Acore_Summonall
+# lua-summon-all
  Lua script for ElunaLua with Azerothcore
 
 This script will allow any player to summon their whole party/raid, as long as the summoner is
